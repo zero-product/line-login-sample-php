@@ -4,6 +4,9 @@
 ## 前提
 開発環境端末にPHPおよびComposerをインストールしてください。
 
+## LINEログイン フロー
+![Test Image 3](assets/line_login_flow.png)
+
 
 ## "LINE Login"と"LINE Messaging API"を用意
 
