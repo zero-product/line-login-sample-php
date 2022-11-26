@@ -52,8 +52,11 @@
 
 1. 以下のコマンドをそれぞれ実行
 ```
-~/.../line-login-sample-php > composer install
-~/.../line-login-sample-php > php -S localhost:8000
+# composer.json のライブラリをインストール
+composer install
+
+# ローカルサーバ立ち上げ
+php -S localhost:8000
 ```
 
 2. ブラウザで[http://localhost:8000](http://localhost:8000)にアクセス
