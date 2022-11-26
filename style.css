@@ -1,0 +1,75 @@
+body {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+a.btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 15px 30px;
+  background-color: #06c755;
+  border-radius: 10px;
+}
+
+a.btn:active {
+  background-color: #06c755dd;
+}
+
+div.document {
+  display: flex;
+}
+
+div.document>div {
+  width: 50%;
+  padding: 0 15px
+}
+
+pre {
+  width: 1000px;
+  max-width: 100%;
+  color: white;
+  padding: 10px 5px;
+  overflow: auto;
+  background-color: darkslategrey;
+}
+
+table.parameter-table {
+  border-collapse: collapse;
+}
+
+table.parameter-table thead {
+  background-color: lavender;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+table.parameter-table tr {
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+}
+
+table.parameter-table th,
+table.parameter-table td {
+  padding: 10px 5px;
+}
+
+table.parameter-table code {
+  color: #555;
+  display: inline-block;
+  margin: 1px 2px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #eee;
+}
