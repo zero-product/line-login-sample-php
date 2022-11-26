@@ -1,8 +1,10 @@
 # 【PHP】LINEログインを実装するサンプル
 
 
+## [LINEログイン公式ドキュメント](https://developers.line.biz/ja/docs/line-login/)
+
 ## 前提
-開発環境端末にPHPおよびComposerをインストールしてください。
+このサンプルで実行する際は、開発環境端末にPHPおよびComposerをインストールしてください。
 
 ## LINEログイン フロー
 ![Test Image 3](assets/line_login_flow.png)
